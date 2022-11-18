@@ -1,0 +1,44 @@
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px){
+    .navbar-collapse{
+        background-color: #0a2640;
+        } 
+    .services .section-title, .blog .section-title, .cta .section-title2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .connect .section-title2, .offer .section-title2, .accordion .section-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .connect {
+        padding: 50px 0;
+      }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px){
+
+    .navbar-collapse{
+        background-color: #0a2640;
+        } 
+    .services .section-title, .blog .section-title, .cta .section-title{
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .connect .section-title2, .offer .section-title2, .accordion .section-title2{
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .connect {
+        padding: 40px 0;
+      }
+
+      .ctaInput{
+        width: 100% !important;
+      }
+}
