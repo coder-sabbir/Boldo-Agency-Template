@@ -1,44 +1,129 @@
 /** For tablet devices **/
-@media (min-width: 768px) and (max-width: 1023px){
-    .navbar-collapse{
-        background-color: #0a2640;
-        } 
-    .services .section-title, .blog .section-title, .cta .section-title2{
-        font-size: 40px;
-        line-height: 50px;
-    }
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  /* Navbar */
+  .navbar-collapse {
+    background-color: #0a2640;
+  }
+  /* Home page */
+  .services .section-title,
+  .blog .section-title,
+  .cta .section-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
 
-    .connect .section-title2, .offer .section-title2, .accordion .section-title{
-        font-size: 30px;
-        line-height: 40px;
-    }
+  .connect .section-title2,
+  .offer .section-title2,
+  .accordion .section-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
 
-    .connect {
-        padding: 50px 0;
-      }
+  .connect {
+    padding: 50px 0;
+  }
+
+  /* About Page */
+
+  .about {
+    padding: 120px 0;
+  }
+
+  .story {
+    padding: 50px 20px;
+  }
+
+  .team-story {
+    padding: 50px 20px;
+  }
+
+  .values {
+    padding: 50px 20px;
+  }
+
+  .values h3{
+    margin-top: 20px;
+  }
+
+  .about .section-title,
+  .story .section-title,
+  .members .section-title,
+  .team .section-title,
+  .values .section-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .count h1 {
+    font-size: 60px;
+    line-height: 50px;
+  }
+
 }
 
 /** For mobile devices **/
-@media (max-width: 767px){
+@media (max-width: 767px) {
+ /* Navbar */
+  .navbar-collapse {
+    background-color: #0a2640;
+  }
+  /* Home page */
+  .services .section-title,
+  .blog .section-title,
+  .cta .section-title {
+    font-size: 30px;
+    line-height: 50px;
+  }
 
-    .navbar-collapse{
-        background-color: #0a2640;
-        } 
-    .services .section-title, .blog .section-title, .cta .section-title{
-        font-size: 30px;
-        line-height: 50px;
-    }
+  .connect .section-title2,
+  .offer .section-title2,
+  .accordion .section-title2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
 
-    .connect .section-title2, .offer .section-title2, .accordion .section-title2{
-        font-size: 26px;
-        line-height: 40px;
-    }
+  .connect {
+    padding: 40px 0;
+  }
 
-    .connect {
-        padding: 40px 0;
-      }
+  .ctaInput {
+    width: 100% !important;
+  }
 
-      .ctaInput{
-        width: 100% !important;
-      }
+  /* About page */
+
+  .about {
+    padding: 100px 0;
+  }
+
+  .story {
+    padding: 50px 20px;
+  }
+
+  .team-story {
+    padding: 50px 20px;
+  }
+
+  .values {
+    padding: 50px 20px;
+  }
+
+  .values h3{
+    margin-top: 20px;
+  }
+
+  .about .section-title,
+  .story .section-title,
+  .members .section-title,
+  .team .section-title,
+  .values .section-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .count h1 {
+    font-size: 60px;
+    line-height: 50px;
+  }
 }
