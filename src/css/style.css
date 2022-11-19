@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none !important;
+}
+
 body {
   font-family: "Manrope", sans-serif;
 }
@@ -282,7 +286,7 @@ a.nav-link:focus {
 /* Accordion Section End */
 
 /* Blog Section Start */
-.blog .cat {
+.cat {
   font-weight: 700;
   font-size: 16px;
   line-height: 28px;
@@ -290,14 +294,14 @@ a.nav-link:focus {
   text-decoration: none;
 }
 
-.blog .date {
+.date {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: #777777;
 }
 
-.blog .title {
+.title {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -305,7 +309,7 @@ a.nav-link:focus {
   text-decoration: none;
 }
 
-.blog .author {
+.author {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -313,7 +317,7 @@ a.nav-link:focus {
   text-decoration: none;
 }
 
-.blog button {
+.blogBtn {
   padding: 16px 56px;
   gap: 8px;
   background: transparent;
@@ -415,4 +419,16 @@ a.nav-link:focus {
   font-size: 28px;
   line-height: 48px;
   color: #fff;
+}
+
+/***********************
+  Blog Page
+********************/
+.blogs {
+  margin-top: 140px;
+}
+
+.border-bottom{
+  margin-bottom: 40px;
+  padding-bottom: 40px;
 }

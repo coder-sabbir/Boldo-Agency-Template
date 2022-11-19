@@ -1,6 +1,5 @@
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
-  
   /* Navbar */
   .navbar-collapse {
     background-color: #0a2640;
@@ -42,7 +41,7 @@
     padding: 50px 20px;
   }
 
-  .values h3{
+  .values h3 {
     margin-top: 20px;
   }
 
@@ -60,11 +59,24 @@
     line-height: 50px;
   }
 
+  /* Blog page */
+
+  .blogs {
+    margin-top: 120px;
+  }
+  .blogs .section-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .blogs .section-title2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
 
 /** For mobile devices **/
 @media (max-width: 767px) {
- /* Navbar */
+  /* Navbar */
   .navbar-collapse {
     background-color: #0a2640;
   }
@@ -109,7 +121,7 @@
     padding: 50px 20px;
   }
 
-  .values h3{
+  .values h3 {
     margin-top: 20px;
   }
 
@@ -125,5 +137,19 @@
   .count h1 {
     font-size: 60px;
     line-height: 50px;
+  }
+
+  /* Blog page */
+
+  .blogs {
+    margin-top: 100px;
+  }
+  .blogs .section-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .blogs .section-title2 {
+    font-size: 26px;
+    line-height: 40px;
   }
 }
